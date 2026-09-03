@@ -16,7 +16,7 @@ export default function HomePage({ onNavigate }) {
   const fetchProducts = async () => {
     try {
       setLoading(true);
-      const res = await fetch('/api/products');
+      const res = await fetch(`${import.meta.env.VITE_API_URL}/api/products`);
       if (!res.ok) throw new Error('Failed to fetch products');
       const data = await res.json();
       if (data.success) {

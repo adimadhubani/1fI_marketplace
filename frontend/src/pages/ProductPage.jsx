@@ -29,7 +29,7 @@ export default function ProductPage({ slug, onNavigate }) {
       try {
         setLoading(true);
         setError(null);
-        const res = await fetch(`/api/products/${slug}`);
+        const res = await fetch(`${import.meta.env.VITE_API_URL}/api/products/${slug}`);
         if (!res.ok) {
           throw new Error(`Product '${slug}' not found`);
         }
@@ -216,8 +216,8 @@ export default function ProductPage({ slug, onNavigate }) {
           product.brand === 'Apple'
             ? 'Imagine Store - Apple Authorised Reseller'
             : product.brand === 'Samsung'
-            ? 'Samsung Smart Plaza - Official Store'
-            : 'OnePlus Experience Store'
+              ? 'Samsung Smart Plaza - Official Store'
+              : 'OnePlus Experience Store'
         }
         merchantAddress="Shop 14, 100 Feet Rd, Indiranagar, Bengaluru, Karnataka 560038"
         selectedPlan={currentSelectedPlan}
