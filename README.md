@@ -126,6 +126,7 @@ CREATE TABLE emi_plans (
 | **iPhone 17 Pro** | 256GB, 512GB | Silver, Black, Gold | 3mo (10%), 6mo (10% ★), 12mo (12%) |
 | **Samsung S24 Ultra** | 256GB, 512GB | Cream, Violet, Black | 3mo (10%), 6mo (10% ★), 12mo (12%) |
 | **OnePlus 13** | 256GB, 512GB | Emerald, Onyx | 3mo (10%), 6mo (10% ★), 12mo (12%) |
+
 🚀 Quick Start
 Prerequisites
 Node.js (v18+)
@@ -385,11 +386,5 @@ text
 | Author section | ✅ |
 
 ---
-
-
-## 📤 **Save and Push**
-
-```bash
-
 
 
