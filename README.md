@@ -71,9 +71,14 @@ erDiagram
         boolean is_recommended
         timestamp created_at
     }
-Table Definitions
-<details> <summary>Click to expand SQL schema</summary>
-sql
+```
+
+### Table Definitions
+
+<details>
+<summary>Click to expand SQL schema</summary>
+
+```sql
 -- Products table
 CREATE TABLE products (
   id SERIAL PRIMARY KEY,
@@ -109,14 +114,18 @@ CREATE TABLE emi_plans (
   is_recommended BOOLEAN DEFAULT false,
   created_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+```
 </details>
-Seed Data
+
+### Seed Data
+
 3 products with variants and EMI plans:
 
-Product	Storage Variants	Color Variants	EMI Plans
-iPhone 17 Pro	256GB, 512GB	Silver, Black, Gold	3mo (10%), 6mo (10% ★), 12mo (12%)
-Samsung S24 Ultra	256GB, 512GB	Cream, Violet, Black	3mo (10%), 6mo (10% ★), 12mo (12%)
-OnePlus 13	256GB, 512GB	Emerald, Onyx	3mo (10%), 6mo (10% ★), 12mo (12%)
+| Product | Storage Variants | Color Variants | EMI Plans |
+|---------|------------------|----------------|-----------|
+| **iPhone 17 Pro** | 256GB, 512GB | Silver, Black, Gold | 3mo (10%), 6mo (10% ★), 12mo (12%) |
+| **Samsung S24 Ultra** | 256GB, 512GB | Cream, Violet, Black | 3mo (10%), 6mo (10% ★), 12mo (12%) |
+| **OnePlus 13** | 256GB, 512GB | Emerald, Onyx | 3mo (10%), 6mo (10% ★), 12mo (12%) |
 🚀 Quick Start
 Prerequisites
 Node.js (v18+)
