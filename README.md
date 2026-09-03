@@ -349,8 +349,8 @@ Deliverable	Status
 ✅ Video Demo	[Google Drive/YouTube Link]
 👨‍💻 Author
 Your Name
-GitHub: @your-username
-Email: your.email@example.com
+GitHub: @adimadhubani
+
 
 📄 License
 This project was created as part of the 1Fi SDE Intern Assignment.
@@ -368,23 +368,6 @@ text
 
 ---
 
-## ✅ **Ismein kya hai?**
 
-| Section | Status |
-|---------|--------|
-| Title + Description | ✅ |
-| Features list | ✅ |
-| Tech Stack table | ✅ |
-| ER Diagram | ✅ |
-| SQL Schema | ✅ |
-| Seed Data summary | ✅ |
-| Quick Start guide | ✅ |
-| API Documentation | ✅ |
-| Deployment guide | ✅ |
-| Project Structure | ✅ |
-| Deliverables checklist | ✅ |
-| Author section | ✅ |
-
----
 
 
